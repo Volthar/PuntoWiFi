@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/txtUsr"
-        android:layout_width="wrap_content"
+        android:layout_width="71dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="133dp"
-        android:layout_toStartOf="@+id/btnLogin"
-        android:text="Usuario" />
+        android:layout_alignBaseline="@+id/edtUsr"
+        android:layout_alignStart="@+id/txtPsw"
+        android:text="Usuario"
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/edtUsr"
@@ -21,8 +21,8 @@
         android:layout_height="52dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="95dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginTop="92dp"
         android:ems="10" />
 
     <TextView
@@ -30,9 +30,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/edtPsw"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="81dp"
-        android:text="Contraseña" />
+        android:layout_toStartOf="@+id/btnLogin"
+        android:text="Contraseña"
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/edtPsw"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/edtUsr"
-        android:layout_marginTop="209dp"
+        android:layout_marginTop="195dp"
         android:ems="10"
         android:inputType="textPassword" />
 
@@ -54,7 +54,7 @@
         android:text="Iniciar sesión" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

@@ -5,42 +5,40 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnloginsito"
+        android:id="@+id/btnZonaWifi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="86dp"
-        android:layout_toStartOf="@+id/editText"
+        android:layout_marginBottom="120dp"
+        android:layout_toEndOf="@+id/textTitulo"
         android:text="Zona WiFi" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnConectate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/btnloginsito"
-        android:layout_toEndOf="@+id/editText"
+        android:layout_alignTop="@+id/btnZonaWifi"
+        android:layout_toStartOf="@+id/textTitulo"
         android:text="Conéctate" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="98dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="83dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Punto WiFi" />
-
-    <EditText
-        android:id="@+id/editText3"
+    <TextView
+        android:id="@+id/textTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="210dp"
-        android:ems="10"
-        android:inputType="textMultiLine"
+        android:layout_marginTop="72dp"
+        android:text="Punto WiFi"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textFrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
         android:text="¡Presiona un botón para empezar!"
-        android:textAlignment="center" />
+        android:textSize="24sp" />
+
 </RelativeLayout>

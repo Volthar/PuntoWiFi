@@ -52,5 +52,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="199dp"
-        android:text="Login" />
+        android:text="Iniciar sesión" />
 </RelativeLayout>

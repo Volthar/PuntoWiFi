@@ -3,14 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="191dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
-        android:text="TextView" />
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Información del punto:" />
 
     <Button
         android:id="@+id/button2"
@@ -18,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:text="Button" />
+        android:text="Volver" />
 
     <EditText
         android:id="@+id/editText2"
@@ -26,10 +28,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="162dp"
+        android:layout_marginTop="181dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:text="info..."
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/button3"
@@ -38,5 +41,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="117dp"
-        android:text="Button" />
+        android:text="Ubicar punto" />
 </RelativeLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -37,8 +38,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="195dp"
-        android:text="¡Presiona un botón para empezar!"
+        android:layout_marginTop="148dp"
+        android:text="Presiona conectate para ver los puntos disponibles"
+        android:textAlignment="center"
         android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnZonaWifi"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/wifi" />
 
 </RelativeLayout>

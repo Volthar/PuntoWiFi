@@ -29,7 +29,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="72dp"
         android:text="Punto WiFi"
-        android:textSize="18sp" />
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textFrase"
@@ -39,6 +39,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="195dp"
         android:text="¡Presiona un botón para empezar!"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
 </RelativeLayout>

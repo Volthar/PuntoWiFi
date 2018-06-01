@@ -8,7 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button zonaWifi, conectate;
+    Button zonaWifi;
+    Button conectate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,18 +25,18 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-
-});
+        });
         conectate=(Button)findViewById(R.id.btnConectate);
 
         conectate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 =new Intent(MainActivity.this,ActivityInfo.class);
-                startActivity(intent2);
+                Intent intent =new Intent(MainActivity.this,InfoPuntoActivity.class);
+                startActivity(intent);
             }
 
         });
+
 
 
     }

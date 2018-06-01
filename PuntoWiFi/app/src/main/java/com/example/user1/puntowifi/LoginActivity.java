@@ -119,7 +119,7 @@ public class LoginActivity extends AppCompatActivity {
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
             Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();
-            conexion = DriverManager.getConnection("jdbc:jtds:sqlserver://CENBUC;port=1433;databaseName=Puntos WiFi;user=CENBUC\Sebas;password=venalau2018!;");
+            conexion = DriverManager.getConnection("jdbc:jtds:sqlserver://CENBUC;port=1433;databaseName=Puntos WiFi;user=sebastianvallejoroldan@gmail.com;password=abc123;");
         }
 
         catch(Exception ex){

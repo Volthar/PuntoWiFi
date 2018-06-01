@@ -2,6 +2,8 @@ package com.example.user1.puntowifi;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 
 public class CalcularPuntosActivity extends AppCompatActivity {
 

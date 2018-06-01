@@ -32,28 +32,22 @@ public class LoginActivity extends AppCompatActivity {
         txtUsr=(TextView)findViewById(R.id.txtUsr);
         txtPsw=(TextView)findViewById(R.id.txtPsw);
 
+        /*
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 CheckLogin checkLogin = new CheckLogin();
                 checkLogin.execute("");
             }
-        });
+        });*/
     }
 
+    /*
     public class CheckLogin extends AsyncTask<String,String,String>
     {
         private ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this);
         String z = "";
         Boolean isSuccess = false;
-
-        @Override
-        protected void onPreExecute()
-        {
-           /* progressDialog.setMessage("Downloading your data...");
-            progressDialog.show();*/
-
-        }
 
         @Override
         protected void onPostExecute(String r)
@@ -126,6 +120,6 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), ex.getMessage(),Toast.LENGTH_SHORT).show();
         }
         return conexion;
-    }
+    }*/
 
 }
